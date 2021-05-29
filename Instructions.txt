@@ -1,0 +1,31 @@
+This is a React Project
+
+In order to run, you need to have npm installed on your system. 
+NPM comes bundled with Node JS. So please install Node JS first if npm is not installed.
+
+If you just want to run the project:
+
+1. Install serve package on your system with following command
+
+npm i serve --global
+
+Open the parent folder of 'build' and run the following command
+
+serve -s build
+
+It will start the project on http://localhost:5000 by default. Open this URL in your web browser
+
+2. If you want to set up development environment
+
+Go the folder where package.json is located.
+Run the following command
+
+npm i
+
+This will install all the dependecies required to run the project.
+
+Now run the command
+
+npm start
+
+It will start the project on http://localhost:3000 by default. Open this URL in your web browser
